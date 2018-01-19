@@ -1,0 +1,25 @@
+{
+  "questions": [
+    {
+      "question": "How is doge pronounced?",
+      "correct": "Who gives a shit?!",
+      "answer1": "D.O.G.E is an abbreviation",
+      "answer2": "Like 'dog',but 'doge'",
+      "answer3": "Like 'doj',but 'doge'"
+    },
+    {
+      "question": "Was Harambre just a gorilla?",
+      "correct": "It's Harambe!",
+      "answer1": "Yes",
+      "answer2": "NO!",
+      "answer3": "What is a gorilla?"
+    },
+    {
+      "question": "You want sum fuk?",
+      "correct": "No Ron,I don't want sum fuk",
+      "answer1": "No Ron,go find Becky",
+      "answer2": "No Ron,your tail is small",
+      "answer3": "Yes, let's fuk"
+    }
+  ]
+}

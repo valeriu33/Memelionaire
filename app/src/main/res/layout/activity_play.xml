@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/memlionere_bg"
+    tools:context="com.example.altaris.memlionere.Activities.PlayActivity">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='How "doge" is pronounced?'
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/ans_cBtn"
+        android:layout_width="199dp"
+        android:layout_height="27dp"
+        android:background="@drawable/unselected_answer"
+        android:elevation="0dp"
+        android:text="C answer"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/ans_aBtn"
+        android:layout_width="225dp"
+        android:layout_height="31dp"
+        android:background="@drawable/unselected_answer"
+        android:elevation="0dp"
+        android:text="A answer"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/ans_bBtn"
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:background="@drawable/unselected_answer"
+        android:elevation="0dp"
+        android:text="B answer"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/ans_dBtn"
+        android:layout_width="202dp"
+        android:layout_height="21dp"
+        android:background="@drawable/unselected_answer"
+        android:elevation="0dp"
+        android:text="D answer"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <!--</LinearLayout>-->
+</android.support.constraint.ConstraintLayout>
